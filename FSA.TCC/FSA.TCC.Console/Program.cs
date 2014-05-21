@@ -70,6 +70,7 @@ namespace FSA.TCC
         {
             Console.WriteLine("{1} - O carro {0} iniciou seu caminho", c.Id, tempo.ToString().PadLeft(4, '0'));
             carros++;
+            //murvilous
         }
 
         static void c1_ImpedimentoDeProgresso(Carro impedido, Carro impedidor)
